@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body>
+		<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+		<!-- Heading -->
+		<div class="heading">
+			<h1 id="title">Survey Form</h1>
+		</div>
+		<!-- Description -->
+		<div class="desc">
+			<p id="description">Let us know how we can improve freeCodeCamp</p>
+		</div>
+		<!-- Form -->
+		<div class="form">
+			<form id="survey-form">
+				<div class="kiri">
+					<label for="name" id="name-label">Name	</label>
+				</div>
+				<div class="kanan">
+					<input type="text" name="name" id="name" required placeholder="Your Name..">
+				</div>
+				<div class="kiri">
+					<label for="email" id="email-label">Email </label>
+				</div>
+				<div class="kanan">
+					<input type="email" name="email" id="email" required placeholder="Your Email..">
+				</div>
+				<div class="kiri">
+					<label for="number" id="number-label">Age</label>
+				</div>
+				<div class="kanan">
+					<input type="number" name="age" id="number" min="1" max="150" required placeholder="Your age..">
+				</div>
+				<div class="kiri">
+					<label for="select" id="selRole">Your Role</label>
+				</div>
+				<div class="kanan">
+					<select name="role" id="dropdown">
+						<option selected disabled value>Select Role</option>
+						<option value="Student">Student</option>
+						<option value="Fulltime Job">Fulltime Job</option>
+						<option value="Fulltime Learner">Fulltime Learner</option>
+						<option value="Not To Say">Prefer Not To Say</option>
+						<option value="Other">Other</option>
+					</select>
+				</div>
+				<div class="kiri">
+					<label for="radio">recommend friend?</label>
+				</div>
+				<div class="kanan">
+					<ul>
+						<li class="radio"><label>Definitely<input type="radio" name="radio-btn" value="1" class="radio-button"></label></li>
+						<li class="radio"><label>Maybe<input type="radio" name="radio-btn" value="2" class="radio-button"></label></li>
+						<li class="radio"><label>Not Sure<input type="radio" name="radio-btn" value="3" class="radio-button"></label></li>
+					</ul>
+				</div>
+				<div class="kiri">
+					<label for="checkbox">which?</label>
+				</div>
+				<div class="kanan">
+					<ul>
+						<li class="checkbox"><label>Front-end<input type="checkbox" name="checkbox-btn" value="1" class="checkbox-button"></label></li>
+						<li class="checbox"><label>Back-end<input type="checkbox" name="checkbox-btn" value="2" class="checkbox-buttons"></label></li>
+						<li class="checbox"><label>Full-stack<input type="checkbox" name="checkbox-btn" value="3" class="checkbox-buttons"></label></li>
+					</ul>
+				</div>
+				<div class="kiri">
+					<label for="text-area">Comment!!</label>
+				</div>
+				<div class="kanan">
+					<textarea name="comments" id="comments" cols="40" rows="20" placeholder="your comments.."></textarea>
+				</div>
+				<div class="kiri">
+					<label for="submit">Send Your Info</label>
+				</div>
+				<div class="kanan">
+					<input type="submit" name="submit" id="submit" value="Submit">
+				</div>
+			</form>
+		</div>
+		
+	
+	</body>
+</html>
