@@ -1,0 +1,61 @@
+/* * {
+	margin: 0;
+	padding: 0;
+} */
+
+body {
+	background-color: #3EEEEE;
+	color: #fff;
+}
+
+.heading {
+	margin: 100 0;
+	padding: 10 10;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.desc {
+	margin: 20 20;
+	padding: 20 20;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+
+}
+
+.form {
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+#survey-form {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 80%;
+	position: relative;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	background-color: #20185E;
+}
+
+.kiri {
+	display: inline-block;
+	padding-right: 0%;
+	padding-left: 35%;
+}
+
+.kanan {
+	display: inline-block;
+	margin-left: 2px;
+	padding-left: 0%;
+	padding-right: 35%;
+}
+
+#comment {
+	margin-right: 30%;
+	padding-left: 45%;
+	padding-right: 30%;
+}
