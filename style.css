@@ -38,6 +38,10 @@ body {
 	margin: auto;
 	padding: 10px;
 	border-radius: 10px;
+	width: 80%;
+	position: relative;
+	margin: auto;
+	padding: 10px;
 	text-align: center;
 	background-color: #20185E;
 }
